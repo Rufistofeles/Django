@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+ <head>
+    
+    <!--  <link rel="stylesheet" type="text/css" href="/site_media/base.css" />  -->      
+    <meta charset= "utf-8" name= "viewport" content= "width= device-width, initial-scale= 1">
+
+    {% load staticfiles %}
+    
+    <link rel = "stylesheet" type="text/css" href="{% static 'polls/normalize.css' %}" />
+    <link rel = "stylesheet" type="text/css" href="{% static 'polls/estilos.css' %}" />
+    
+    <title>Sistema Domótico</title>
+    <link rel="shortcut icon" href="{% static 'polls/logo.png' %}">
+    
+</head>
+
+<body>
+    
+    <header>
+    
+        <figure id="logo">
+            <img src= "{% static 'polls/logo.png' %}" />
+        </figure>
+        
+        <h1><a href="{% url 'polls:index' %}">Sistema Domótico...</a></h1>
+        
+    </header>
+    
+    {% block content %}{% endblock %}
+    
+    <!-- <br />
+    <br />
+    <br />
+    <br /> -->
+    
+    
+    
+    <footer>
+        <br/>
+        <br/>
+        <font size=2px>
+            <strong>Contactame en el Tuister!! 😉 <br /> 
+            
+            Rafael Perez </strong>
+            <br />
+            <br />
+            <br />
+            <a href="https://twitter.com/Rufistofeles" class="twitter-follow-button" data-show-count="false" data-show-screen-name="true" data-lang="en">Follow @Rufistofeles</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+            </script>
+
+        </font>
+    </footer> 
+    
+</body>
+</html>
