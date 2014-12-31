@@ -1,0 +1,34 @@
+{% extends "polls/base.html" %}
+    {% block title %}
+        Directorio ODI
+    {% endblock %}
+{% block content %}
+
+
+
+<!--==============================
+<h1>{{ poll.question }}</h1> -->
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<section id="contenido">
+<form action="{% url 'polls:vote' poll.id %}" method="post">
+{% csrf_token %}
+{% for choice in poll.choice_set.all %}
+	<br/>
+	<input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+	<span style="color:#DD4F24" ><label for="choice{{ forloop.counter }}"> {{ choice.choice_text }}</label></span>
+	<br />
+	<br />
+{% endfor %}
+
+<input type="submit" value="Elegir" />
+</form>
+</section>
+
+
+
+
+<br />
+
+{% endblock %}

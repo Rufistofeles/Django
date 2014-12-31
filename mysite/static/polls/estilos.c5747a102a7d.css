@@ -1,0 +1,232 @@
+body
+{
+	background: #EFEFEF;	
+	color: #4C4C4C;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 0;
+}
+header
+{
+	background: #434343;
+	color: white;
+	padding: 0.5em;
+}
+header h1
+{
+	font-family: lucida;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+	margin: 1em 0 0 1em;
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+header a
+{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+header figure
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+header #logo img
+{
+	width: 50px;
+}
+
+footer
+{
+	float: left;
+	font-family: lucida;
+	font-size: 10px;
+	font-weight: normal;
+	font-style: italic;
+	margin: 1em 0 0 1em;
+	width: 60%;
+}
+
+#contenido
+{
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+	margin: 1em 0 0 3em;
+	width: 60%;
+	
+}
+
+#poll_detail ul
+{
+	list-style: none;  
+	padding: 0;
+	width: 60%
+}
+
+#poll_detail li
+{
+	list-style: none;
+	margin: 1em 0 0 1em;
+	
+}
+
+#poll_detail a 
+{
+	color: #DD4F24;
+	display: inline-block;
+	float: left;
+	padding: 0.5em 0.5em;
+	width: 60%
+}
+
+#encender ul
+{
+	list-style: none;  
+	margin: 0;
+	padding: 0.5em 0.5em;
+}
+#encender li
+{
+	display: inline-block;
+	float: left;
+	margin: 0 1.2em 0 0;
+}
+
+#titulo_2
+{
+	font-size: 1.5em;
+	font-style: italic;
+	padding: 0.5em 0.5em 0;
+}
+
+#apagar ul
+{
+	list-style: none;  
+	margin: 0;
+	padding: 0.5em 0.5em;
+}
+#apagar li
+{
+	display: inline-block;
+	float: left;
+	margin: 0 1.2em 0 0;
+}
+
+#titulo_3
+{
+	font-size: 1.5em;
+	font-style: italic;
+	padding: 0.5em 0.5em 0;
+}
+
+
+
+
+/*
+
+
+header #avatar
+{
+	float: right;
+	margin: 1em 1em 0 0;
+}
+header #avatar figcaption
+{
+	background: #22BCE0;
+	float: right;
+	height: 50px;
+	padding: 0 2px
+}
+header #avatar img
+{
+	float: left;
+	width: 50px;
+}
+
+nav
+{
+	background: #878787;
+	color: white;
+	font-size: 0.9em;
+}
+
+nav #flechita_nav a
+{
+	background: #22BCE0;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+nav #publicar_nav 
+{
+	float: right;
+	margin-right: 0;
+}
+nav #publicar_nav a
+{
+	background: #DD4F24;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px #22BCE0 solid;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
+}
+#contenido .item p
+{
+	color: #7A7A7A;
+	font-size: 0.9em;
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+#contenido .item .imagen_item img
+{
+	width: 96px;
+}
+#contenido .item .titulo_item
+{
+	font-size: 1em;
+	font-style: italic;
+	padding: 0.5em 0.5em 0;
+}
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
+#contenido .item .votacion
+{
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	margin: 3px 0 0 0;
+	position: absolute;
+	padding: 0.5em 0;
+	text-align: center;
+	top: 100%;
+	width: 96px;
+}
+*/

@@ -1,0 +1,28 @@
+{% extends "polls/base.html" %}
+    {% block title %}
+        Directorio ODI
+    {% endblock %}
+{% block content %}
+
+
+
+<!--==============================-->
+<h2 id="titulo_3">Elegiste apagar la Lampara</h2>
+<br/>
+
+
+<ul id="apagar">
+{% for choice in poll.choice_set.all %}
+	<li>{{ choice.choice_text }} -- No. de veces seleccionado: {{ choice.votes }}</li>
+	<br/>
+	<br/>
+	<br/>
+{% endfor %}
+
+</ul>
+
+<br /><a href="{% url 'polls:detail' poll.id %}">¿Elegir de nuevo?</a>
+<br/>
+<br /><a href="{% url 'polls:index' %}">Index</a>
+<br/>
+{% endblock %}
